@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CompteTest {
 
-    // ---------------- IBAN ----------------
+    //- ---------------- IBAN ----------------
 
     @Test
     void testCompruebaIBANTrue() {
