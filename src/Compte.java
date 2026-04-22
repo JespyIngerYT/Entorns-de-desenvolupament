@@ -55,7 +55,6 @@ public class Compte {
                 numeric.append(c);
             }
         }
-
         java.math.BigInteger num = new java.math.BigInteger(numeric.toString());
         int resta = num.mod(java.math.BigInteger.valueOf(97)).intValue();
 
