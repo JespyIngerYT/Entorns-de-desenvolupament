@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CompteTest {
 
+    // ---------------- IBAN ----------------
 
     @Test
     void testCompruebaIBANTrue() {
@@ -22,6 +23,7 @@ class CompteTest {
         assertFalse(c.compruebaIBAN("ES8200491500051234567892"));
     }
 
+    // ---------------- GENERAR IBAN ----------------
 
     @Test
     void testGeneraIBANCorrectes() {
