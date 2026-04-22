@@ -1,3 +1,5 @@
+package es.iesmz.tests;
+
 public class Compte {
 
     private String iban;
